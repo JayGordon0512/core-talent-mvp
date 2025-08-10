@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { --bg: #0b0c10; --fg: #f3f4f6; }
+html, body { height: 100%; }
+body { @apply bg-white text-gray-900; }
+.container { @apply max-w-6xl mx-auto px-4; }
+.card { @apply rounded-2xl shadow-soft bg-white; }
+.btn { @apply px-4 py-2 rounded-2xl shadow-soft; }
+.btn-primary { @apply btn bg-black text-white hover:opacity-90; }
+.input { @apply border rounded-2xl px-3 py-2 w-full; }
+.label { @apply text-sm text-gray-600; }
